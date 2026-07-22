@@ -149,6 +149,14 @@ fun MasterWidget49123(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+@Composable
+fun MasterWidget491231123(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name! [merge1] Master Widget",
+        modifier = modifier
+    )
+}
+
 
 @Preview(showBackground = true)
 @Composable
