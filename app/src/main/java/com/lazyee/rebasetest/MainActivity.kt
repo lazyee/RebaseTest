@@ -77,13 +77,6 @@ fun MasterWidget44(name: String, modifier: Modifier = Modifier) {
         modifier = modifier
     )
 }
-@Composable
-fun MasterWidget45(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name! [merge1] Master Widget",
-        modifier = modifier
-    )
-}
 
 @Composable
 fun MasterWidget46(name: String, modifier: Modifier = Modifier) {
