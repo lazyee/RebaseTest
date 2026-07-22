@@ -53,6 +53,13 @@ fun Leeorz1(name: String, modifier: Modifier = Modifier) {
         modifier = modifier
     )
 }
+@Composable
+fun Leeorz2(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name! [rebase2] Hello",
+        modifier = modifier
+    )
+}
 
 @Composable
 fun MotherFucker2(name: String, modifier: Modifier = Modifier) {
