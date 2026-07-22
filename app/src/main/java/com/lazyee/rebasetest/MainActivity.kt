@@ -70,15 +70,6 @@ fun MotherFucker2(name: String, modifier: Modifier = Modifier) {
     )
 }
 
-
-@Composable
-fun MasterWidget33(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name! [merge1] Master Widget",
-        modifier = modifier
-    )
-}
-
 @Composable
 fun MasterWidget44(name: String, modifier: Modifier = Modifier) {
     Text(
