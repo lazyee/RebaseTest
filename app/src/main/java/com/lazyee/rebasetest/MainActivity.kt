@@ -46,6 +46,14 @@ fun MotherFucker(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+@Composable
+fun MasterWidget(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name! [merge1] Master Widget",
+        modifier = modifier
+    )
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
