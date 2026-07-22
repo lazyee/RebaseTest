@@ -38,6 +38,14 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+@Composable
+fun MotherFucker(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name! [merge1]mother fucker Widget",
+        modifier = modifier
+    )
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
