@@ -94,6 +94,14 @@ fun CustomWidget(name: String,modifier: Modifier){
     }
 }
 
+
+@Composable
+fun CustomWidget2(name: String,modifier: Modifier){
+    Button(onClick = {}, modifier = modifier) {
+        Text("Button",modifier)
+    }
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
