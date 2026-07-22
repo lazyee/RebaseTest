@@ -88,6 +88,14 @@ fun MasterWidget(name: String, modifier: Modifier = Modifier) {
 }
 
 @Composable
+fun MasterWidget33(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name! [merge1] Master Widget",
+        modifier = modifier
+    )
+}
+
+@Composable
 fun CustomWidget(name: String,modifier: Modifier){
     Button(onClick = {}, modifier = modifier) {
         Text("Button",modifier)
